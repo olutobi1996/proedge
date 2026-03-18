@@ -281,7 +281,7 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, p, a, button {
   .ul-check.success li:before {
     color: #8bc34a; }
   .ul-check.primary li:before {
-    color: #2FE3C4; }
+    color: #ee1e46; }
 
 .select-wrap, .wrap-icon {
   position: relative; }
@@ -861,7 +861,7 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, p, a, button {
         top: -5px;
         width: 60px;
         height: 60px;
-        border: 2px solid  #27C9AE;
+        border: 2px solid  #ee1e46;
         border-radius: 50%; }
       .video-media .play-button .icon > span {
         position: absolute;
@@ -1041,7 +1041,7 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, p, a, button {
       height: 3px;
       margin: 5px; }
     .owl-dots .owl-dot.active > span {
-      background:  #2FE3C4; }
+      background:  #ee1e46; }
 
 .bg-light {
   background: rgba(255, 255, 255, 0.05) !important; }
@@ -1067,7 +1067,7 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, p, a, button {
   .custom-media .text h3 a {
     color: #fff; }
     .custom-media .text h3 a:hover {
-      color: #2FE3C4;}
+      color: #ee1e46;}
 
 .custom-pagination a, .custom-pagination span {
   display: inline-block;
@@ -1084,7 +1084,7 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, p, a, button {
 
 .custom-pagination span {
   background: #fff;
-  color: #2FE3C4;; }
+  color: #ee1e46; }
 
 .sidebar-box {
   margin-bottom: 30px;
@@ -1112,7 +1112,7 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, p, a, button {
     color: #fff;
     display: block; }
     .categories li a:hover, .sidelink li a:hover {
-      color: #2FE3C4; }
+      color: #ee1e46;; }
     .categories li a span, .sidelink li a span {
       position: absolute;
       right: 0;
@@ -1252,7 +1252,7 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, p, a, button {
 /* hover effect */
 .service-card:hover {
   transform: translateY(-8px);
-  border-color: #2FE3C4;
+  border-color: #ee1e46;
   box-shadow: 0 20px 45px rgba(47, 227, 196, 0.28);
 }
 
@@ -1267,11 +1267,11 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, p, a, button {
 }
 
 .text-neon {
-  color: #2fe3c4 !important; /* same teal as buttons */
+  color:#ee1e46; !important; /* same teal as buttons */
   text-shadow: 0 0 12px rgba(47, 227, 196, 0.6);
 }
 .text-neon-soft {
-  color: rgba(47, 227, 196, 0.85);
+  color: #ee1e46;(47, 227, 196, 0.85);
 }
 .team-vs {
   border-radius: 16px;
