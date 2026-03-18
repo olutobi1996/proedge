@@ -50,7 +50,7 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, p, a, button {
 }
 
 .btn-primary:hover {
-  background: var(--brand-red-dark);
+  background: #b3122f;
   border-color: var(--brand-red-dark);
 }
 .border-2 {
@@ -151,7 +151,8 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, p, a, button {
   border-color: rgba(255, 255, 255, 0.2);
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
   .form-control:active, .form-control:focus {
-    border-color: #2FE3C4;;
+     border-color: #ee1e46;
+  box-shadow: 0 0 8px rgba(238, 30, 70, 0.6);
     background: none; }
   .form-control:hover, .form-control:active, .form-control:focus {
     -webkit-box-shadow: none !important;
@@ -1262,7 +1263,7 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, p, a, button {
 
 .team-card:hover {
   transform: translateY(-6px);
-  border-color: #2FE3C4;
+  border-color: #ee1e46;
   box-shadow: 0 25px 55px rgba(47, 227, 196, 0.35);
 }
 

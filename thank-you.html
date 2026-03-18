@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thank You | Route One</title>
+  <title>Thank You | ProEdge Coaching</title>
   <link rel="stylesheet" href="/css/style.css">
+
   <style>
-    /* Center layout */
     body {
       margin: 0;
-      font-family: 'Inter', sans-serif;
+      font-family: 'Montserrat', sans-serif;
+      background: #000;
     }
 
     .success-wrapper {
@@ -17,71 +18,70 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background: url(/images/hogs-coaching.jpg) no-repeat center center / cover;
+      background: url(/images/proedgelogo.jpg) no-repeat center center / cover;
       position: relative;
     }
 
     .success-overlay {
       position: absolute;
       inset: 0;
-      background: rgba(0, 0, 0, 0.5); /* dark overlay for contrast */
+      background: rgba(0, 0, 0, 0.7);
     }
 
-  .success-box {
-  background: var(--brand-white);
-  border: 2px solid var(--brand-teal);
-  color: var(--brand-navy);
-  border-radius: 16px;
-  padding: 3rem 4rem;
-  max-width: 600px;
-  text-align: center;
-  box-shadow: 0 0 25px rgba(47, 227, 196, 0.6); /* teal glow */
-}
-
-.success-box h1 {
-  font-family: 'DM Serif Display', serif;
-  font-size: 2.5rem;
-  color: var(--brand-navy);
-}
-
-.success-box h1::after {
-  content: "";
-  display: block;
-  width: 80px;
-  height: 3px;
-  background: var(--brand-teal);
-  margin: 0.8rem auto 0;
-  border-radius: 2px;
-}
-
-.success-box p {
-  font-style: italic;
-  color: var(--brand-navy);
-}
-
-.cta-button {
-  background: var(--brand-teal);
-  color: var(--brand-navy);
-  padding: 0.8rem 1.6rem;
-  border-radius: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.cta-button:hover {
-  background: var(--brand-teal-dark);
-  color: var(--brand-white);
-  box-shadow: 0 0 15px var(--brand-teal);
-}
-
-
-    @keyframes fadeInUp {
-      from {opacity: 0; transform: translateY(30px);}
-      to {opacity: 1; transform: translateY(0);}
+    /* 🔴 MAIN BOX */
+    .success-box {
+      background: #000;
+      border: 2px solid #ee1e46;
+      color: #fff;
+      border-radius: 16px;
+      padding: 3rem 4rem;
+      max-width: 600px;
+      text-align: center;
+      position: relative;
+      z-index: 2;
+      box-shadow: 0 0 20px rgba(238, 30, 70, 0.4);
     }
 
-    /* Responsive */
+    .success-box h1 {
+      font-size: 2.5rem;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    /* 🔴 underline */
+    .success-box h1::after {
+      content: "";
+      display: block;
+      width: 80px;
+      height: 3px;
+      background: #ee1e46;
+      margin: 0.8rem auto 0;
+      border-radius: 2px;
+    }
+
+    .success-box p {
+      color: #ccc;
+      line-height: 1.6;
+    }
+
+    /* 🔴 BUTTON */
+    .cta-button {
+      display: inline-block;
+      margin-top: 20px;
+      background: #ee1e46;
+      color: #fff;
+      padding: 0.8rem 1.6rem;
+      border-radius: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background: #b3122f;
+      color: #fff;
+    }
+
     @media(max-width: 768px){
       .success-box {
         padding: 2rem;
@@ -91,21 +91,26 @@
   </style>
 
   <script>
-    // Auto-redirect after 5 seconds to homepage
     setTimeout(() => {
       window.location.href = "/";
     }, 5000);
   </script>
 </head>
+
 <body>
   <div class="success-wrapper">
     <div class="success-overlay"></div>
+
     <div class="success-box">
       <h1>Thank You!</h1>
-      <p>Your message has been successfully sent to <strong>Route One</strong>.<br>
-      We appreciate your enquiry and will get back to you shortly.</p>
-      <p>All sessions are small-group football coaching, focused on individual development and fun!</p>
-      <a href="/index.html" class="cta-button">Home</a>
+
+      <p>Your message has been successfully sent to <strong>ProEdge Coaching</strong>.</p>
+
+      <p>We’ll get back to you shortly to discuss your session or answer any questions.</p>
+
+      <p>We look forward to helping you improve your game ⚽</p>
+
+      <a href="/index.html" class="cta-button">Back to Home</a>
     </div>
   </div>
 </body>
